@@ -1,0 +1,63 @@
+h1  {
+    text-align: center;
+    font-size: 100px;
+    margin-bottom: 40px;
+}
+
+div {
+    display: flex;  
+ 	justify-content: center;  
+    align-items: center;
+
+}
+
+#plus   {
+    margin: 10px;
+    padding: 20px;
+}
+
+#minus   {
+    margin: 10px;
+    padding: 20px;
+}
+    
+
+button  {
+    color:white;
+    background-color: rgb(172, 166, 166);
+    border-radius: 25%;
+    font-size: 20px;
+    border-color: transparent;
+}
+
+button:hover    {
+    background-color: white;
+    color:  rgb(172, 166, 166);
+    border-radius: 25%;
+    border: 1px solid  rgb(172, 166, 166);
+    
+}
+
+input    {
+   
+    border-radius: 10%;
+    border: 3px solid  rgb(172, 166, 166);
+    color: black;
+    background-color: white;
+    text-align: center;
+    padding: 25px;
+    width: 50px;
+    height: 12px;
+    font-size: 30px;
+    font-weight: bold;
+
+} 
+
+/* to remove the number input spinner got this from https://css-tricks.com/snippets/css/turn-off-number-input-spinners/*/
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
